@@ -258,6 +258,51 @@
         margin-bottom: 2rem;
       }
     }
+
+      .forest-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+
+  .forest-card:hover {
+    transform: translateY(-10px);
+  }
+
+  .forest-title {
+    color: #28a745;
+    font-family: 'Georgia', serif;
+  }
+
+  .forest-text {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .forest-btn {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+
+  .forest-btn:hover {
+    background-color: #218838;
+    border-color: #218838;
+  }
+
+  .forest-modal .modal-content {
+    border-radius: 15px;
+  }
+
+  .forest-modal .modal-header {
+    background-color: #28a745;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .forest-modal .modal-body {
+    background-color: #f8f9fa;
+  }
   </style>
 </head>
 <body>
@@ -373,18 +418,18 @@ A dedicated initiative focused on preserving and protecting our forest ecosystem
     </div>
   </section>
 
-<!-- Projects Section with Card Layout -->
+<!-- Projects Section with Forestry Design -->
 <section id="projects" class="projects_section">
   <div class="container">
     <div class="row">
       <!-- Reforestation -->
       <div class="col-md-4 mb-4">
-        <div class="card">
+        <div class="card forest-card">
           <img src="images/forest-image1.png" class="card-img-top" alt="Reforestation">
           <div class="card-body">
-            <h5 class="card-title">Reforestation</h5>
-            <p class="card-text">Our reforestation project aims to restore degraded forest areas by planting native tree species. This initiative helps in carbon sequestration and biodiversity conservation.</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reforestationModal">
+            <h5 class="card-title forest-title">Reforestation</h5>
+            <p class="card-text forest-text">Our reforestation project aims to restore degraded forest areas by planting native tree species. This initiative helps in carbon sequestration and biodiversity conservation.</p>
+            <button class="btn btn-primary forest-btn" data-bs-toggle="modal" data-bs-target="#reforestationModal">
               Read More
             </button>
           </div>
@@ -392,12 +437,12 @@ A dedicated initiative focused on preserving and protecting our forest ecosystem
       </div>
       <!-- Conservation -->
       <div class="col-md-4 mb-4">
-        <div class="card">
+        <div class="card forest-card">
           <img src="images/forest-image2.png" class="card-img-top" alt="Conservation">
           <div class="card-body">
-            <h5 class="card-title">Conservation</h5>
-            <p class="card-text">We are committed to conserving existing forests through sustainable practices and community involvement. Our goal is to protect vital ecosystems and wildlife habitats.</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#conservationModal">
+            <h5 class="card-title forest-title">Conservation</h5>
+            <p class="card-text forest-text">We are committed to conserving existing forests through sustainable practices and community involvement. Our goal is to protect vital ecosystems and wildlife habitats.</p>
+            <button class="btn btn-primary forest-btn" data-bs-toggle="modal" data-bs-target="#conservationModal">
               Read More
             </button>
           </div>
@@ -405,12 +450,12 @@ A dedicated initiative focused on preserving and protecting our forest ecosystem
       </div>
       <!-- Sustainable Forestry -->
       <div class="col-md-4 mb-4">
-        <div class="card">
+        <div class="card forest-card">
           <img src="images/forest-image3.png" class="card-img-top" alt="Sustainable Forestry">
           <div class="card-body">
-            <h5 class="card-title">Sustainable Forestry</h5>
-            <p class="card-text">Our sustainable forestry practices ensure that forest resources are managed responsibly. We promote the use of eco-friendly methods to maintain forest health and productivity.</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sustainableForestryModal">
+            <h5 class="card-title forest-title">Sustainable Forestry</h5>
+            <p class="card-text forest-text">Our sustainable forestry practices ensure that forest resources are managed responsibly. We promote the use of eco-friendly methods to maintain forest health and productivity.</p>
+            <button class="btn btn-primary forest-btn" data-bs-toggle="modal" data-bs-target="#sustainableForestryModal">
               Read More
             </button>
           </div>
@@ -418,12 +463,12 @@ A dedicated initiative focused on preserving and protecting our forest ecosystem
       </div>
       <!-- Wildlife Protection -->
       <div class="col-md-4 mb-4">
-        <div class="card">
+        <div class="card forest-card">
           <img src="images/forest-image4.png" class="card-img-top" alt="Wildlife Protection">
           <div class="card-body">
-            <h5 class="card-title">Wildlife Protection</h5>
-            <p class="card-text">We work to protect endangered wildlife species by preserving their natural habitats and implementing anti-poaching measures. Our efforts contribute to the conservation of biodiversity.</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#wildlifeProtectionModal">
+            <h5 class="card-title forest-title">Wildlife Protection</h5>
+            <p class="card-text forest-text">We work to protect endangered wildlife species by preserving their natural habitats and implementing anti-poaching measures. Our efforts contribute to the conservation of biodiversity.</p>
+            <button class="btn btn-primary forest-btn" data-bs-toggle="modal" data-bs-target="#wildlifeProtectionModal">
               Read More
             </button>
           </div>
@@ -431,12 +476,12 @@ A dedicated initiative focused on preserving and protecting our forest ecosystem
       </div>
       <!-- Community Engagement -->
       <div class="col-md-4 mb-4">
-        <div class="card">
+        <div class="card forest-card">
           <img src="images/forest-image5.png" class="card-img-top" alt="Community Engagement">
           <div class="card-body">
-            <h5 class="card-title">Community Engagement</h5>
-            <p class="card-text">We engage local communities in our forestry projects to foster a sense of ownership and responsibility. Through education and participation, we empower communities to protect their forests.</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#communityEngagementModal">
+            <h5 class="card-title forest-title">Community Engagement</h5>
+            <p class="card-text forest-text">We engage local communities in our forestry projects to foster a sense of ownership and responsibility. Through education and participation, we empower communities to protect their forests.</p>
+            <button class="btn btn-primary forest-btn" data-bs-toggle="modal" data-bs-target="#communityEngagementModal">
               Read More
             </button>
           </div>
@@ -448,13 +493,13 @@ A dedicated initiative focused on preserving and protecting our forest ecosystem
   <!-- Modals -->
   <div class="modal fade" id="reforestationModal" tabindex="-1" aria-labelledby="reforestationModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
+      <div class="modal-content forest-modal">
         <div class="modal-header">
-          <h5 class="modal-title" id="reforestationModalLabel">Reforestation</h5>
+          <h5 class="modal-title forest-title" id="reforestationModalLabel">Reforestation</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <p>Our reforestation project aims to restore degraded forest areas by planting native tree species. This initiative helps in carbon sequestration and biodiversity conservation.</p>
+          <p class="forest-text">Our reforestation project aims to restore degraded forest areas by planting native tree species. This initiative helps in carbon sequestration and biodiversity conservation.</p>
         </div>
       </div>
     </div>
@@ -462,13 +507,13 @@ A dedicated initiative focused on preserving and protecting our forest ecosystem
 
   <div class="modal fade" id="conservationModal" tabindex="-1" aria-labelledby="conservationModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
+      <div class="modal-content forest-modal">
         <div class="modal-header">
-          <h5 class="modal-title" id="conservationModalLabel">Conservation</h5>
+          <h5 class="modal-title forest-title" id="conservationModalLabel">Conservation</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <p>We are committed to conserving existing forests through sustainable practices and community involvement. Our goal is to protect vital ecosystems and wildlife habitats.</p>
+          <p class="forest-text">We are committed to conserving existing forests through sustainable practices and community involvement. Our goal is to protect vital ecosystems and wildlife habitats.</p>
         </div>
       </div>
     </div>
@@ -476,13 +521,13 @@ A dedicated initiative focused on preserving and protecting our forest ecosystem
 
   <div class="modal fade" id="sustainableForestryModal" tabindex="-1" aria-labelledby="sustainableForestryModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
+      <div class="modal-content forest-modal">
         <div class="modal-header">
-          <h5 class="modal-title" id="sustainableForestryModalLabel">Sustainable Forestry</h5>
+          <h5 class="modal-title forest-title" id="sustainableForestryModalLabel">Sustainable Forestry</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <p>Our sustainable forestry practices ensure that forest resources are managed responsibly. We promote the use of eco-friendly methods to maintain forest health and productivity.</p>
+          <p class="forest-text">Our sustainable forestry practices ensure that forest resources are managed responsibly. We promote the use of eco-friendly methods to maintain forest health and productivity.</p>
         </div>
       </div>
     </div>
@@ -490,13 +535,13 @@ A dedicated initiative focused on preserving and protecting our forest ecosystem
 
   <div class="modal fade" id="wildlifeProtectionModal" tabindex="-1" aria-labelledby="wildlifeProtectionModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
+      <div class="modal-content forest-modal">
         <div class="modal-header">
-          <h5 class="modal-title" id="wildlifeProtectionModalLabel">Wildlife Protection</h5>
+          <h5 class="modal-title forest-title" id="wildlifeProtectionModalLabel">Wildlife Protection</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <p>We work to protect endangered wildlife species by preserving their natural habitats and implementing anti-poaching measures. Our efforts contribute to the conservation of biodiversity.</p>
+          <p class="forest-text">We work to protect endangered wildlife species by preserving their natural habitats and implementing anti-poaching measures. Our efforts contribute to the conservation of biodiversity.</p>
         </div>
       </div>
     </div>
@@ -504,13 +549,13 @@ A dedicated initiative focused on preserving and protecting our forest ecosystem
 
   <div class="modal fade" id="communityEngagementModal" tabindex="-1" aria-labelledby="communityEngagementModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
+      <div class="modal-content forest-modal">
         <div class="modal-header">
-          <h5 class="modal-title" id="communityEngagementModalLabel">Community Engagement</h5>
+          <h5 class="modal-title forest-title" id="communityEngagementModalLabel">Community Engagement</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <p>We engage local communities in our forestry projects to foster a sense of ownership and responsibility. Through education and participation, we empower communities to protect their forests.</p>
+          <p class="forest-text">We engage local communities in our forestry projects to foster a sense of ownership and responsibility. Through education and participation, we empower communities to protect their forests.</p>
         </div>
       </div>
     </div>
@@ -543,9 +588,8 @@ A dedicated initiative focused on preserving and protecting our forest ecosystem
         <!-- Contact Us -->
         <div class="contact_us">
           <h4>Contact Us</h4>
-          <p>Address: Elisenbergveien 20A, 0265 Oslo, Norway</p>
-          <p>Tel./WhatsApp: +47 99705017</p>
-          <p>Email: mail@offshore-innovation.com</p>
+          <p>Address: Bujuko Wkiso</p>
+          <p>Tel. +256 752727277</p>
           <!-- If you want a second LinkedIn link under Contact Us, you can keep it, or remove it. -->
           <!--
           <p>
