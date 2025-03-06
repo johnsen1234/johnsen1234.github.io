@@ -70,6 +70,7 @@
 
     /* Hero Section */
     .hero_section {
+      padding: 50px 0;
       background-color: var(--primary-color); /* Blue background */
       color: var(--text-light);
       min-height: 80vh;      /* Adjust as needed */
@@ -80,6 +81,7 @@
     }
     .hero_container {
       display: flex;
+      align-items: stretch;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
@@ -87,13 +89,16 @@
       max-width: 1200px;
       margin: 0 auto;
       padding: 0 1rem;
+      gap: 20px;
     }
 
     /* Upgraded Hero Text */
     .hero_text {
+      flex: 1;
       background-color: rgba(255, 255, 255, 0.15); /* Slight translucent overlay */
       padding: 2rem;
       border-radius: 8px;
+      justify-content: center; 
       max-width: 600px; /* Limit width for a more compact look */
       margin-bottom: 1rem;
     }
