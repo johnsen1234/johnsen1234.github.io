@@ -174,14 +174,26 @@
       background-color: var(--secondary-color);
     }
 
-    /* YouTube Video Section */
+    /* YouTube Button Section */
     .youtube_section {
       padding: 4rem 0;
       background-color: var(--background-light);
+      text-align: center;
     }
     .youtube_section h2 {
       margin-bottom: 2rem;
-      text-align: center;
+    }
+    .youtube_section .btn-youtube {
+      background-color: #ff0000; /* YouTube red color */
+      color: #fff;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease;
+    }
+    .youtube_section .btn-youtube:hover {
+      background-color: #cc0000; /* Darker red on hover */
     }
 
     /* Footer */
@@ -572,15 +584,15 @@ In the picture, our founder, Mr. Leo Musisi, is seen preparing the field for tre
   </div>
 </section>
 
-<!-- YouTube Video Section -->
+<!-- YouTube Button Section -->
 <section id="youtube-video" class="youtube_section">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-8">
         <h2>Watch Our Latest Video</h2>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=IkoZG0sgD98" allowfullscreen></iframe>
-        </div>
+        <a href="https://www.youtube.com/watch?v=yZTzH6RnFDA" target="_blank" class="btn btn-youtube">
+          Watch Video on YouTube
+        </a>
       </div>
     </div>
   </div>
